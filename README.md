@@ -1,28 +1,20 @@
-# From Scratch to Excel: A Journey in Multi-Class Iris Classification
+# Word2Vec Embeddings from Scratch for Hacker News Data
 
-## Building a Neural Network from Scratch
-- Crafted a bespoke neural network architecture, encompassing fully connected layers, activation functions, and a softmax output layer.
-- Trained the model utilizing backpropagation and stochastic gradient descent, meticulously fine-tuning hyperparameters to attain optimal performance.
+## Key Features
+1. **CBOW and Skip-Gram Word2Vec Implementations**: I have developed the CBOW and Skip-Gram models using PyTorch, without relying on pre-built Word2Vec libraries.
+2. **Hacker News Dataset Preprocessing**: The project includes thorough preprocessing of the Hacker News dataset, including text cleaning, tokenization, and vocabulary building.
+3. **Word Embedding Training and Evaluation**: The trained word embeddings are evaluated on their ability to predict the scores of Hacker News posts, demonstrating their effectiveness in capturing semantic and syntactic relationships.
 
-## Excel-based Solution Development
-- Engineered a comprehensive Excel-driven model primed for multi-class classification tasks.
-- Capitalized on Excel's robust data manipulation and analysis functionalities, incorporating formulas, pivot tables, and conditional formatting.
-- Demonstrated Excel's adaptability in addressing intricate machine learning challenges, even sans specialized coding expertise.
+## Challenges Addressed
+1. **CBOW and Skip-Gram Implementations**: Implementing the core algorithms of the CBOW and Skip-Gram models, including the training objective functions and the negative sampling process, was a key challenge.
+2. **Hacker News Data Preprocessing**: Handling the complexities of the Hacker News dataset, such as dealing with HTML tags, URLs, and irregular text formatting, required careful attention.
+3. **Model Evaluation and Optimization**: Determining the optimal hyperparameters for the Word2Vec models and the downstream prediction task, as well as developing suitable evaluation metrics, was crucial for achieving high performance.
 
-## Key Highlights
-- Evaluated the performance and nuances between the neural network and Excel-based methodologies, elucidating their respective merits and demerits.
-- Underlined the significance of comprehending machine learning fundamentals, be it through bespoke implementations or utilizing accessible tools like Excel.
-- Exhibited prowess in navigating multi-class classification hurdles through both state-of-the-art deep learning and conventional data analysis methods.
+## Future Improvements
+1. **Exploring Advanced Word Embedding Techniques**: Investigating more recent word embedding models, such as #GloVe or #FastText, to further enhance the performance and capabilities of the system.
+2. **Incorporating Additional Data Sources**: Expanding the dataset by incorporating other online communities or forums related to Hacker News, to enrich the word embeddings and improve the prediction accuracy.
+3. **Multilingual Support**: Extending the project to handle multiple languages, allowing for a more diverse and inclusive user experience.
+4. **Integration with Other Applications**: Exploring ways to integrate the Word2Vec embeddings and the prediction model into other applications, such as content recommendation systems or search engines.
 
-## Addressed Challenges
-1. **Neural Network Architecture Design**: Navigating the maze of determining the optimal network structure, activation functions, and hyperparameters for the multi-class classification task.
-2. **Excel Model Complexity**: Ensuring the Excel-based solution can seamlessly handle extensive datasets and intricate decision boundaries without compromising efficacy or user-friendliness.
-3. **Deployment and Interactivity**: Facilitating seamless model deployment and user engagement for both the neural network and Excel-based models.
-
-## Future Enhancements
-1. **Hybrid Approach**: Exploring amalgamation of neural network and Excel-based models to leverage their respective strengths.
-2. **Automated Feature Engineering**: Pioneering techniques for automated feature engineering tailored to multi-class classification.
-3. **Scalability and Efficiency**: Bolstering the scalability and computational efficiency of both neural network and Excel-based solutions.
-
-## Conclusion
-This project exemplifies my adaptability in navigating multi-class classification conundrums, harnessing both avant-garde deep learning techniques and traditional data analysis tools. Through exploring these diverse avenues, I've cultivated a deeper insight into the trade-offs and intricacies entailed in crafting robust classification models.
+## Acknowledgments
+I would like to acknowledge the pioneering work of the Word2Vec authors, Tomas Mikolov et al., whose research and algorithms have been instrumental in this project. Additionally, I'm grateful for the open-source tools and libraries that have made this project possible, including PyTorch, Streamlit, and the various natural language processing resources available.
